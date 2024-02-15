@@ -13,14 +13,14 @@
     />
   </head>
   <body>
-    <header>
-      <img class="logo" src="img/Vector.svg" alt="logo" />
-    </header>
-    <article>
-      <section class="seccion1">
-        <div>
+    <div class="contenedor">
+      <header class="header">
+        <img class="logo" src="img/Vector.svg" alt="logo" />
+      </header>
+      <section class="seccionUno">
+        <div class="cajaTexto">
           <textarea
-            class="cajaTexto"
+            class="textarea"
             name=""
             id=""
             cols="30"
@@ -28,22 +28,20 @@
             placeholder="Ingrese el texto aquí"
           ></textarea>
         </div>
-        <div class="alerta">
-          <img src="img/done.svg" alt="alerta" />
-          <p>Solo letras minúsculas y sin acentos</p>
+        <div class="alertaLetras">
+          <img class="imgAlerta" src="img/done.svg" alt="alerta" />
+          <p class="letraMinuscula">Solo letras minúsculas y sin acentos</p>
         </div>
         <div class="contedorBtn">
           <input class="btnEncriptar" type="button" value="Encriptar" />
           <input class="btnDesencriptar" type="button" value="Desencriptar" />
         </div>
       </section>
-      </article>
-      <aside>
-        <section class="seccion2">
-        <div class="contenedorImagen">
-          <img src="img/Muneco.svg" alt="muñeco" />
+      <section class="seccionDos">
+        <div class="munieco">
+          <img class="imgMuneco" src="img/Muneco.svg" alt="muñeco" />
         </div>
-        <div class="contenedorParrafo">
+        <div class="tituloParrafo">
           <h3>
             Ningún mensaje fue <br />
             encontrado
@@ -54,9 +52,10 @@
           </p>
         </div>
         <div>
-          <input class="btnCopiar" type="button" value="Copiar" />
+          <input class="btnCopiar" type="button" value="Copiar " />
           <p class="textoResultado"></p>
         </div>
-      </section>    
+      </section>
+    </div>
   </body>
 </html>
