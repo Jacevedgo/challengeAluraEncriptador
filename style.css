@@ -82,9 +82,9 @@ html {
     margin-left: 1vw;
   }
 
-  .btnCopiar {
+  .cBtnCopiar {
     position: absolute;
-    bottom: -38vh;
+    bottom: -34vh;
     min-width: 80%;
   }
 }
@@ -162,7 +162,6 @@ html {
 }
 
 
-
 .resultado {
   margin-left: 1vw;
   margin-top: 10vh;
@@ -203,9 +202,9 @@ p {
 }
 
 .cBtnCopiar {
-  margin-top: 13.5vh;
-  margin-left: 27vw;
-  width: 100%;
+  margin-top: 5.5vh;
+  margin-left: 7vw;
+  width: 70%;
   height: 6vh;
   background-color: #fff;
   color: #0a3871;
